@@ -1,0 +1,1 @@
+export { default as wood } from './wood.jpg';
