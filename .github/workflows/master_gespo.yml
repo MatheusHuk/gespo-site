@@ -31,6 +31,5 @@ jobs:
       uses: azure/webapps-deploy@v1
       with:
         app-name: 'gespo'
-        slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_419e89ef609a44198d60f4ebc2a8b04f }}
         package: .
