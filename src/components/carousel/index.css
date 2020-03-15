@@ -1,0 +1,14 @@
+.carousel{
+	height: 100VH;
+	font-family: Times New Roman;
+}
+.carousel-item{
+	height: 100VH;
+	color: black;
+}
+.carousel-item img{
+	filter: blur(5px);
+}
+.carousel .carousel-caption{
+	color: black;
+}
