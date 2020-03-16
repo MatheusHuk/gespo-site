@@ -7,7 +7,7 @@ import './index.css';
 export default function CarouselBack(){
 	return(
 		<>
-			<Carousel className="carousel">
+			<Carousel className="carousel" interval={5000}>
 			  <Carousel.Item>
 				<img
 				  className="d-block w-100"
@@ -15,8 +15,8 @@ export default function CarouselBack(){
 				  alt="First slide"
 				/>
 				<Carousel.Caption className="carousel-caption">
-				  <h3>First slide label</h3>
-				  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+				  <h3>Primeiro slide label	</h3>
+				  <p>Esse é um comentário aleatório, só para ter algo.</p>
 				</Carousel.Caption>
 			  </Carousel.Item>
 			  <Carousel.Item>
@@ -27,8 +27,8 @@ export default function CarouselBack(){
 				/>
 
 				<Carousel.Caption>
-				  <h3>Second slide label</h3>
-				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				  <h3>Segundo Slide Label</h3>
+				  <p>Esse é o segundp comentário aleatório, só para ter algo..</p>
 				</Carousel.Caption>
 			  </Carousel.Item>
 			  <Carousel.Item>
@@ -39,8 +39,8 @@ export default function CarouselBack(){
 				/>
 
 				<Carousel.Caption>
-				  <h3>Third slide label</h3>
-				  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+				  <h3>Terceiro slide label</h3>
+				  <p>Esse é o terceiro comentário aleatório, só para ter algo..</p>
 				</Carousel.Caption>
 			  </Carousel.Item>
 			</Carousel>

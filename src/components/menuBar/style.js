@@ -18,6 +18,7 @@ export const Img = styled.img`
 	width: 6VH;
 	background-color: red;
 	margin-left: 3VW;
+	cursor: pointer;
 	src: ${props => props.src}
 `;
 

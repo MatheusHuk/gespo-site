@@ -8,24 +8,24 @@ export default function MenuBar(){
 			<Style.Img src={img.wood}/>
 			<Style.PageMenu>
 				<Style.Button>
-					Lorem
+					Sobre Nós
 				</Style.Button>
 				<Style.Button>
-					Ipsum
+					Home
 				</Style.Button>
 				<Style.Button>
-					Lorem
+					Projeto
 				</Style.Button>
 				<Style.Button>
-					Ipsum
+					Contatos
 				</Style.Button>
 			</Style.PageMenu>
 			<Style.ButtonMenu>
 				<Style.Button>
-					Lorem
+					Login
 				</Style.Button>
 				<Style.Button>
-					Ipsum
+					Cadastre-se
 				</Style.Button>
 			</Style.ButtonMenu>
 		</Style.Todo>
