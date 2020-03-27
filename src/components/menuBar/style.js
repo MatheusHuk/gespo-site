@@ -7,8 +7,10 @@ export const Todo = styled.div`
 	color: white;
 	margin: 0;
 	display: flex;
-	position: absolute;
+	position: fixed;
 	overflow: auto;
+	z-index: 999;
+	border-radius: 0 0 10px 10px;
 `;
 
 export const Img = styled.img`
@@ -16,6 +18,7 @@ export const Img = styled.img`
 	width: 6VH;
 	background-color: red;
 	margin-left: 3VW;
+	cursor: pointer;
 	src: ${props => props.src}
 `;
 
@@ -26,6 +29,7 @@ export const Button = styled.div`
 	text-align: center;
 	vertical-align: middle;
 	line-height: 6VH;
+	cursor: pointer;
 	:hover{
 		color: gray;
 	}
