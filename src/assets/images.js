@@ -5,3 +5,6 @@ export { default as s3 } from './slide3.jpg';
 export {default as work} from './work.png';
 export {default as support} from './support.png';
 export {default as member} from './membership.png';
+export { default as mulher} from './pessoa.jpg';
+export { default as pessoa2} from './pessoa2.jpg';
+export { default as pessoa3} from './pessoa3.jpg';
