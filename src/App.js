@@ -38,6 +38,13 @@ function App() {
 				</Col>
 			</Row>
 		</Container>
+		<Container className= "div-class-1">
+			<Row>
+				<Col>
+                	<h1 className= "h1-class-1">Nossos Colaboradores</h1>
+				</Col>
+			</Row>		
+        </Container>
 		<Container className = "container-card-img">
 			<Row>
 				<Col>
