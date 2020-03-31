@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container-card{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
