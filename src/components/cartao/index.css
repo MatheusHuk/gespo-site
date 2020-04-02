@@ -1,0 +1,25 @@
+.titulo-principal{
+    font-size: 60px;
+    font-weight: 500;
+}
+.subtitulo-principal{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.cor-card{
+    background-color: #2B47AA;
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .borda{
+    border-radius: 0px 0px 5px 5px;
+    background-color: #2B47AA;
+    color: white;
+  }
+
+  .distancia{
+      margin-bottom: 2.5vh;
+  }
