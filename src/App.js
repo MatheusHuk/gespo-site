@@ -11,6 +11,13 @@ function App() {
 	<>
 		<MenuBar />
 		<CarouselBack />
+		<Container className= "div-class-1">
+			<Row>
+				<Col>
+                	<h1 className= "h1-class-1">Sobre Nós</h1>
+				</Col>
+			</Row>		
+        </Container>
 		<Container className= "container-card">
 			<Row>
 				<Col><CartaoBack className = "cor-card" titulo = {"QUEM"}

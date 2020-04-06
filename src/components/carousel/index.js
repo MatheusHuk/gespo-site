@@ -14,8 +14,6 @@ export default function CarouselBack(){
 				  alt="First slide"
 				/>
 				<Carousel.Caption className="carousel-caption">
-				  <h3>Primeiro slide label	</h3>
-				  <p>Esse é um comentário aleatório, só para ter algo.</p>
 				</Carousel.Caption>
 			  </Carousel.Item>
 			  <Carousel.Item>
