@@ -14,33 +14,14 @@ export default function CarouselBack(){
 				  alt="First slide"
 				/>
 				<Carousel.Caption className="carousel-caption">
-				  <h3>Primeiro slide label	</h3>
-				  <p>Esse é um comentário aleatório, só para ter algo.</p>
 				</Carousel.Caption>
 			  </Carousel.Item>
 			  <Carousel.Item>
 				<img
 				  className="d-block w-100"
 				  src={img.s2}
-				  alt="Third slide"
+				  alt="Second slide"
 				/>
-
-				<Carousel.Caption>
-				  <h3>Segundo Slide Label</h3>
-				  <p>Esse é o segundp comentário aleatório, só para ter algo..</p>
-				</Carousel.Caption>
-			  </Carousel.Item>
-			  <Carousel.Item>
-				<img
-				  className="d-block w-100"
-				  src={img.s3}
-				  alt="Third slide"
-				/>
-
-				<Carousel.Caption>
-				  <h3>Terceiro slide label</h3>
-				  <p>Esse é o terceiro comentário aleatório, só para ter algo..</p>
-				</Carousel.Caption>
 			  </Carousel.Item>
 			</Carousel>
 		</>

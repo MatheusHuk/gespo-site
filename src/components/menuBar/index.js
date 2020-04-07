@@ -8,14 +8,17 @@ export default function MenuBar(){
 			<Style.Img src={img.wood}/>
 			<Style.PageMenu>
 				<Style.Button>
-					Sobre Nós
-				</Style.Button>
-				<Style.Button>
 					Home
 				</Style.Button>
+
 				<Style.Button>
-					Projeto
+					Sobre Nós
 				</Style.Button>
+
+				<Style.Button>
+					Colaboradores
+				</Style.Button>
+
 				<Style.Button>
 					Contatos
 				</Style.Button>
