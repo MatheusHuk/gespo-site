@@ -54,7 +54,7 @@ function App() {
 								 img = {img.mulher}/>
 				</Col>
 				<Col>
-					<CardImgBack nome = {"Evandro"}
+					<CardImgBack nome = {"Márcia"}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
 								 img = {img.pessoa2}/>
 								 

@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faYoutube, faFacebook, faTwitter, faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 import './index.css';
 
 export default function Footer(){
@@ -34,6 +38,16 @@ export default function Footer(){
                 <li>FAQ</li>
                 <li>Chat</li>
                 <li>suporte@gespo.com.br</li>
+            </ul>
+            </div>
+            {/*Coluna-3*/}
+            <div className="col-md-3 col-sm-6">
+            <h4>Rede sociais</h4>
+            <ul className="list-unstyled">
+                <li className="social"><FontAwesomeIcon icon={faYoutube} size="2x" /></li>
+                <li className="social"><FontAwesomeIcon icon={faFacebook} size="2x" /></li>
+                <li className="social"><FontAwesomeIcon icon={faInstagram} size="2x" /></li>
+                <li className="social"><FontAwesomeIcon icon={faTwitter} size="2x" /></li>
             </ul>
             </div>
             </div>
