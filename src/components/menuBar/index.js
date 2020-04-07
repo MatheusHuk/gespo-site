@@ -11,7 +11,7 @@ export default function MenuBar(){
 					Home
 				</Style.Button>
 
-				<Style.Button className="nav-link active" href="#" data-scroll-nav="0">
+				<Style.Button>
 					Sobre Nós
 				</Style.Button>
 
