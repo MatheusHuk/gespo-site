@@ -4,6 +4,7 @@ import CarouselBack from './components/carousel';
 import CartaoBack from './components/cartao';
 import CardImgBack from './components/cardImg'
 import { Container, Row, Col } from 'react-bootstrap';
+import Footer from './components/footer';
 import * as img from './assets/images';
 
 function App() {
@@ -65,7 +66,7 @@ function App() {
 								 img = {img.mulher}/>
 				</Col>
 				<Col>
-					<CardImgBack nome = {"Evandro"}
+					<CardImgBack nome = {"Márcia"}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
 								 img = {img.pessoa2}/>
 								 
@@ -77,7 +78,8 @@ function App() {
 								 
 				</Col>
 			</Row>
-		</Container>	
+		</Container>
+		<Footer />	
 	</>
   );
 }
