@@ -8,3 +8,8 @@ export {default as member} from './membership.png';
 export { default as mulher} from './pessoa.jpg';
 export { default as pessoa2} from './pessoa2.jpg';
 export { default as pessoa3} from './pessoa3.jpg';
+export { default as huk } from './huk.jpeg';
+export { default as marco } from './marco.jpeg';
+export { default as lucas } from './lucas.jpeg';
+export { default as massao } from './massao.jpeg';
+export { default as petter } from './petter.jpeg';

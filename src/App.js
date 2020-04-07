@@ -4,6 +4,7 @@ import CarouselBack from './components/carousel';
 import CartaoBack from './components/cartao';
 import CardImgBack from './components/cardImg'
 import { Container, Row, Col } from 'react-bootstrap';
+import Footer from './components/footer';
 import * as img from './assets/images';
 
 function App() {
@@ -65,7 +66,8 @@ function App() {
 								 
 				</Col>
 			</Row>
-		</Container>	
+		</Container>
+		<Footer />	
 	</>
   );
 }
