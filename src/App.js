@@ -61,20 +61,41 @@ function App() {
 		<Container className = "container-card-img">
 			<Row>
 				<Col>
-					<CardImgBack nome = {"Carla Perez"}
+					<CardImgBack nome = {""}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.mulher}/>
+								 img = {img.marco}/>
 				</Col>
 				<Col>
-					<CardImgBack nome = {"Márcia"}
+					<CardImgBack nome = {""}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.pessoa2}/>
+								 img = {img.massao}/>
 								 
 				</Col>
 				<Col>
-					<CardImgBack nome = {"Sam Smith"}
+					<CardImgBack nome = {""}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.pessoa3}/>
+								 img = {img.lucas}/>
+								 
+				</Col>
+			</Row>
+		</Container>
+		<Container className = "container-card-img">
+			<Row>
+				<Col>
+					<CardImgBack nome = {""}
+								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
+								 img = {img.petter}/>
+				</Col>
+				<Col>
+					<CardImgBack nome = {""}
+								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
+								 img = {img.huk}/>
+								 
+				</Col>
+				<Col>
+					<CardImgBack nome = {""}
+								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
+								 img = {img.huk}/>
 								 
 				</Col>
 			</Row>
