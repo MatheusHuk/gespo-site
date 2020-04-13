@@ -35,10 +35,12 @@ export const Button = styled.div`
 	line-height: 6VH;
 	cursor: pointer;
 	transition: 0.3s;
+	text-decoration: none;
 	:hover{
 		background-color: #1F1462;
-		color: white
+		color: white;
 	}
+
 `;
 
 export const ButtonMenu = styled.div`
@@ -58,4 +60,7 @@ export const PageMenu = styled.div`
 	height: auto;
 	width: auto;
 	margin-left: 1VW;
+	a {
+		text-decoration: none;
+	}
 `;

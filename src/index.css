@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -26,6 +29,10 @@ code {
 .div-class-1{
   margin-top: 10vh;
   margin-left: 30vh;
+}
+
+a {
+  text-decoration: none;
 }
 
 

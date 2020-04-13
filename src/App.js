@@ -15,7 +15,7 @@ function App() {
 		<Container className= "div-class-1">
 			<Row>
 				<Col>
-                	<h1 className= "h1-class-1">Sobre Nós</h1>
+                	<h1 className= "h1-class-1" id = "nos">Sobre Nós</h1>
 				</Col>
 			</Row>		
         </Container>
@@ -54,27 +54,27 @@ function App() {
 		<Container className= "div-class-1">
 			<Row>
 				<Col>
-                	<h1 className= "h1-class-1">Nossos Colaboradores</h1>
+                	<h1 className= "h1-class-1" id = "colabs">Nossos Colaboradores</h1>
 				</Col>
 			</Row>		
         </Container>
 		<Container className = "container-card-img">
 			<Row>
 				<Col>
-					<CardImgBack nome = {""}
-								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.marco}/>
+					<CardImgBack nome = {"Marco Rover"}
+								 texto = {"Project Manager e diretor de Pesquisa e Inovação contribuindo a mais de 2 anos ao time. "}
+								 img = {img.huk}/>
 				</Col>
 				<Col>
-					<CardImgBack nome = {""}
-								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.massao}/>
+					<CardImgBack nome = {"Victor Massao"}
+								 texto = {"Desenvolvedor Back-end Senior do projeto, contribuindo a mais de 2 anos para o grupo. "}
+								 img = {img.huk}/>
 								 
 				</Col>
 				<Col>
-					<CardImgBack nome = {""}
-								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.lucas}/>
+					<CardImgBack nome = {"Lucas Abreu"}
+								 texto = {"DBA da equipe, contribuindo com a administração de nossos bancos de dados."}
+								 img = {img.huk}/>
 								 
 				</Col>
 			</Row>
@@ -82,20 +82,21 @@ function App() {
 		<Container className = "container-card-img">
 			<Row>
 				<Col>
-					<CardImgBack nome = {""}
+				<CardImgBack nome = {"Mateus Huk"}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
-								 img = {img.petter}/>
+								 img = {img.huk}/>
 				</Col>
 				<Col>
-					<CardImgBack nome = {""}
-								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
+					<CardImgBack nome = {"Petter Mene"}
+								 texto = {"DBA Senior, liderando a infraesturura e modelagem da base de dados utilizada pela ferramenta."}
 								 img = {img.huk}/>
 								 
 				</Col>
 				<Col>
-					<CardImgBack nome = {""}
-								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
+				<CardImgBack nome = {"Bruno Alemida"}
+								 texto = {"DEVOPS da Empres, contribuindo para a infraestrutura e arquitetura da nossa empresa."}
 								 img = {img.huk}/>
+					
 								 
 				</Col>
 			</Row>

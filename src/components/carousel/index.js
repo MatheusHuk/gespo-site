@@ -6,7 +6,7 @@ import './index.css';
 export default function CarouselBack(){
 	return(
 		<>
-			<Carousel className="carousel" interval={5000}>
+			<Carousel className="carousel" interval={5000} id = "home">
 			  <Carousel.Item>
 				<img
 				  className="d-block w-100"

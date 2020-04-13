@@ -8,7 +8,7 @@ import './index.css';
 export default function Footer(){
     return(
         <>
-            <div className="main-footer">
+            <div className="main-footer" id = "foot">
             <div className="container">
             <div className="row">
             {/*Coluna-1*/}

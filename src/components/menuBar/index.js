@@ -5,23 +5,30 @@ import * as img from '../../assets/images';
 export default function MenuBar(){
 	return(
 		<Style.Todo>
-			<Style.Img src={img.wood}/>
+			<a href = "#home">
+				<Style.Img src={img.wood}/>
+			</a>
 			<Style.PageMenu>
+			<a href = "#home">
 				<Style.Button>
 					Home
 				</Style.Button>
-
+			</a>
+			<a href = "#nos">
 				<Style.Button>
 					Sobre Nós
 				</Style.Button>
-
+			</a>
+			<a href = "#colabs">
 				<Style.Button>
 					Colaboradores
 				</Style.Button>
-
+			</a>
+			<a href = "#foot">
 				<Style.Button>
 					Contatos
 				</Style.Button>
+			</a>
 			</Style.PageMenu>
 			<Style.ButtonMenu>
 				<Style.Button>
