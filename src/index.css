@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -13,16 +17,22 @@ code {
 }
 
 .container-card{
-  margin-top: 10vh;
+  margin-top: 5vh;
   margin-bottom: 10vh;
 }
 
 .container-card-img {
   margin-top: 5vh;
+  margin-bottom: 10vh;
 }
 
 .div-class-1{
   margin-top: 10vh;
   margin-left: 30vh;
 }
+
+a {
+  text-decoration: none;
+}
+
 
