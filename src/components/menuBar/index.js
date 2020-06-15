@@ -31,7 +31,7 @@ export default function MenuBar(){
 			</a>
 			</Style.PageMenu>
 			<Style.ButtonMenu>
-				<Style.Button>
+				<Style.Button onClick={() => { window.location.href = "http://localhost:3000/login"}}>
 					Login
 				</Style.Button>
 				<Style.Button>
