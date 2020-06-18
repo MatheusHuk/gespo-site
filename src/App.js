@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import MenuBar from './components/menuBar';
 import CarouselBack from './components/carousel';
 import CartaoBack from './components/cartao';
@@ -8,6 +8,11 @@ import Footer from './components/footer';
 import * as img from './assets/images';
 
 function App() {
+
+	useEffect(() => {
+		console.log("ENV: ",process.env)
+	}, [])
+	
   return (
 	<>
 		<MenuBar />

@@ -31,12 +31,12 @@ export default function MenuBar(){
 			</a>
 			</Style.PageMenu>
 			<Style.ButtonMenu>
-				<Style.Button onClick={() => { window.location.href = "http://localhost:3000/login"}}>
+				<Style.Button onClick={() => { window.location.href = process.env.REACT_APP_APP_URL+"/login"}}>
 					Login
 				</Style.Button>
-				<Style.Button>
+				{/*<Style.Button>
 					Cadastre-se
-				</Style.Button>
+				</Style.Button>*/}
 			</Style.ButtonMenu>
 		</Style.Todo>
 	);
