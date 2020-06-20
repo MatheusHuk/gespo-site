@@ -22,8 +22,9 @@ jobs:
 
     - name: npm install, build, and test
       run: |
+        export NODE_ENV=production
         npm install
-        CI=false NODE_ENV=production npm run build
+        CI=false npm run build
         npm run test --if-present
 
     - name: 'Deploy to Azure Web App'
