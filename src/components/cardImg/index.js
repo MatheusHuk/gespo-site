@@ -1,8 +1,7 @@
 import React from 'react';
-import { Card, Container, Row, Col, Carousel } from 'react-bootstrap';
-import * as img from '../../assets/images';
+import { Card } from 'react-bootstrap';
 
-export default function CardImgBack({ nome, texto, img}) {
+export default function CardImgBack({ nome, texto, img }) {
 
     return (
         <>

@@ -13,7 +13,7 @@ export default function CartaoBack({ titulo, subTitulo, texto, icone, textoDetal
                 <Card.Body className = "cor-card">
                     <Card.Text className = {"titulo-principal"}>{titulo}</Card.Text>
                     <Card.Text className = {"subtitulo-principal"}>{subTitulo}</Card.Text>
-                    <Image className = "distancia" src= {icone} rbsPrefix />
+                    <Image className = "distancia" src= {icone} />
                     <Card.Text>{texto}</Card.Text>
     <Button  onClick = {() => {setAberto(!aberto)}} variant="outline-light">{textoBotao}</Button>
                 </Card.Body>
