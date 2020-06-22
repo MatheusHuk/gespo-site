@@ -31,8 +31,8 @@ function App() {
 								 texto = {"Consultoria Gerencial"}
 								 textoBotao = {"Nossa História"}
 								 textoDetalhado = {"O Projeto Gespo teve início, no primeiro semstre de 2020, com a união"+
-								" de 5 colegas de faculdade que enxergaram um problema gerencial nas empresas mundiais. Dessa forma"+
-								" uniram-se 5 diferentes expertises, para, o desenvolvimento de uma ferramenta que solucionasse esses problemas"}
+								" de 6 colegas de faculdade que enxergaram um problema gerencial nas empresas mundiais. Dessa forma"+
+								" uniram-se 6 diferentes expertises, para, o desenvolvimento de uma ferramenta que solucionasse esses problemas"}
 								 icone = {img.work}/>
 								 
 								 
@@ -88,7 +88,7 @@ function App() {
 			<Row>
 				<Col>
 				<CardImgBack nome = {"Matheus Huk"}
-								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
+								 texto = {"CEO e Desenvolvedor Front-end Senior da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
 								 img = {img.huk}/>
 				</Col>
 				<Col>
@@ -98,8 +98,8 @@ function App() {
 								 
 				</Col>
 				<Col>
-				<CardImgBack nome = {"Bruno Alemida"}
-								 texto = {"DEVOPS da Empres, contribuindo para a infraestrutura e arquitetura da nossa empresa."}
+				<CardImgBack nome = {"Bruno Almeida"}
+								 texto = {"DEVOPS da Empresa, contribuindo para a infraestrutura e arquitetura da nossa empresa."}
 								 img = {img.bruno}/>
 					
 								 
