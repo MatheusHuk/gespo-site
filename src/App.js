@@ -68,18 +68,18 @@ function App() {
 				<Col>
 					<CardImgBack nome = {"Marco Rover"}
 								 texto = {"Project Manager e diretor de Pesquisa e Inovação contribuindo a mais de 2 anos ao time. "}
-								 img = {img.huk}/>
+								 img = {img.marco}/>
 				</Col>
 				<Col>
 					<CardImgBack nome = {"Victor Massao"}
 								 texto = {"Desenvolvedor Back-end Senior do projeto, contribuindo a mais de 2 anos para o grupo. "}
-								 img = {img.huk}/>
+								 img = {img.massao}/>
 								 
 				</Col>
 				<Col>
 					<CardImgBack nome = {"Lucas Abreu"}
 								 texto = {"DBA da equipe, contribuindo com a administração de nossos bancos de dados."}
-								 img = {img.huk}/>
+								 img = {img.lucas}/>
 								 
 				</Col>
 			</Row>
@@ -87,20 +87,20 @@ function App() {
 		<Container className = "container-card-img">
 			<Row>
 				<Col>
-				<CardImgBack nome = {"Mateus Huk"}
+				<CardImgBack nome = {"Matheus Huk"}
 								 texto = {"CEO da Gespo, contribui para o mercado de tecnologia a mais de 8 anos."}
 								 img = {img.huk}/>
 				</Col>
 				<Col>
 					<CardImgBack nome = {"Petter Mene"}
 								 texto = {"DBA Senior, liderando a infraesturura e modelagem da base de dados utilizada pela ferramenta."}
-								 img = {img.huk}/>
+								 img = {img.petter}/>
 								 
 				</Col>
 				<Col>
 				<CardImgBack nome = {"Bruno Alemida"}
 								 texto = {"DEVOPS da Empres, contribuindo para a infraestrutura e arquitetura da nossa empresa."}
-								 img = {img.huk}/>
+								 img = {img.bruno}/>
 					
 								 
 				</Col>
